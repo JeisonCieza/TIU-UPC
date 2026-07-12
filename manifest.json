@@ -1,0 +1,16 @@
+{
+    "name": "TIU-UPC",
+    "short_name": "tiu",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2563eb",
+    "orientation":"portrait",
+    "icons": [
+        {
+            "src":"icons/logo_upc.webp",
+            "sizes": "512x512",
+            "type": "image/webp"
+        }
+    ]
+}

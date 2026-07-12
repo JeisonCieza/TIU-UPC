@@ -31,6 +31,12 @@ body {
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Public Sans';
+    src: url(fonts/PublicSans-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -124,7 +130,6 @@ body {
     margin-top: 20px;
     width: 100%;
     height: 60vh;
-    background-image: ur    l('imgs/fondo2.png');
     /* background-image: url('imgs/Gemini_Generated_Image_ypgjmpypgjmpypgj.png'); */
     background-size: cover;
     background-repeat: no-repeat;

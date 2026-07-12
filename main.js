@@ -20,25 +20,24 @@ function capitalizarMayus(text) {
 }
 
 function actualizarReloj() {
-    const { hora, minutos, segundos} = obtenerFechaHora()
+    const { hora, minutos, segundos } = obtenerFechaHora()
 
     reloj.textContent = `${hora}:${minutos}:${segundos}`;
 }
 
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
     const { dia, mes, año, diaSemana } = obtenerFechaHora();
     fecha.innerHTML = `<p>${dia}, ${diaSemana} ${mes} ${año}</p>`;
-    
+
     setInterval(actualizarReloj, 1000);
     actualizarReloj();
 })
 
-
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js")
+    .then(() => console.log("SW registrado"))
+    .catch(console.error);
+}
 
 /* ARCHIVOS ANTIGUUOS
 // const fecha = dato.toLocaleDateString('es-ES', {
