@@ -1,4 +1,4 @@
-const CACHE = "mi-app-v2";
+const CACHE = "mi-app-v2.1";
 
 const archivos = [
     "./",
@@ -9,6 +9,7 @@ const archivos = [
     "./imgs/fondo-org.png",
     "./imgs/fondo3.png",
     "./imgs/perfil.png",
+    "./imgs/jason.jpg",
     "./icons/logo_upc.webp",
     "./fonts/BebasNeue-Regular.ttf",
     "./fonts/solano-gothic-mvb-bold.ttf",
