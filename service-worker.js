@@ -1,4 +1,4 @@
-const CACHE = "mi-app-v2.1";
+const CACHE = "mi-app-v2";
 
 const archivos = [
     "./",
